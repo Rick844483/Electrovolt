@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroVolt</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="Images/logo2.png">
+</head>
+<body bgcolor="navyblue">
+    
+    <!-- Menu -->
+    <header>
+        <div id="logo"><a href="Index.html"><img src="Images/logo1.png" height="80px"></a></div>
+        <nav>
+            <ul>
+                
+                <li><a href="sobre.html">Sobre nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="proyectos.html">Proyectos recientes</a></li>
+                <li><a href="form.html">Solicitar presupuesto</a></li>
+                <li><a href="pregunta.html">Preguntas frecuentes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Solicitar presupuesto -->
+    <section id="solicitar-presupuesto">
+        <h2>Solicitar presupuesto</h2>
+        <form action="solicitar-presupuesto" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="descripcion">Descripción del servicio:</label>
+            <textarea id="descripcion" name="descripcion"></textarea><br><br>
+            <input type="submit" value="Solicitar presupuesto">
+            
+        </form>
+    </section>
+
+   <!-- Footer --->
+
+    <footer>
+        <p>&copy; ElectroVolt </p>
+    </footer>
+
+</body>
+</html>
